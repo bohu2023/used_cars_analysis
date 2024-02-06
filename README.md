@@ -31,3 +31,7 @@ The best model is the polynomial linear regression model with all features. From
 * cylinders
 * age
 * drive
+
+### Next Steps and Recommandations
+
+For this analysis, I removed manufacturer column for model training and testing, next, I need to further investigate the approach to add this column and see if it will also impact the car price. I also notice that odometer is the least impact feature for the price and its coefficent is almost 0. I would like to further explore the dataset and identify the reason behind this. 
