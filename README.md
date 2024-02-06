@@ -15,7 +15,7 @@ Data Problem Definition:
 * regression analysis to identify the key features that impact used car prices
 * create a predictive model that estimates the market value of used cars based on the features identified above
 
-### Conclusion on initial data analysis
+## Conclusion on initial data analysis
 
 * Based on correlation of the numeric columns, price has stronger relation with the age
 * The manufacturer that has the most number of cars sold is Ford
@@ -23,7 +23,7 @@ Data Problem Definition:
 * Car ages at 7,8,9,10 have the most sale
 * Most of the cars for deal are automatic with gas
 
-### Conclusion
+## Conclusion
 
 The best model is the polynomial linear regression model with all features. From the later feature selection result, we can identify that features impact the price are: 
 * fuel
@@ -32,6 +32,6 @@ The best model is the polynomial linear regression model with all features. From
 * age
 * drive
 
-### Next Steps and Recommandations
+## Next Steps and Recommandations
 
 For this analysis, I removed manufacturer column for model training and testing, next, I need to further investigate the approach to add this column and see if it will also impact the car price. I also notice that odometer is the least impact feature for the price and its coefficent is almost 0. I would like to further explore the dataset and identify the reason behind this. 
